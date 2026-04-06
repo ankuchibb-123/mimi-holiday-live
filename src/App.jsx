@@ -20,16 +20,6 @@ export default function MimiAndTheGirlsHolidaySite() {
                 and unforgettable memories ✈️🌴
               </p>
             </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow">
-              <p className="text-sm text-rose-400">Website</p>
-              <p className="text-xl font-bold mt-2">
-                mimiandthegirlsholiday.com
-              </p>
-              <p className="text-sm mt-2 text-gray-500">
-                Keep checking back… clues coming soon 👀
-              </p>
-            </div>
           </div>
         </div>
       </header>
