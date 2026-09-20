@@ -586,21 +586,82 @@ export default function MimiAndTheGirlsHolidaySite() {
         </section>
 
         {/* PACKING */}
-        <section className="mt-12">
-          <div className="rounded-2xl bg-rose-100 p-8 text-center">
+        {/* PACKING */}
+<section className="mt-16">
+  <div className="rounded-3xl bg-gradient-to-br from-rose-100 via-pink-50 to-white p-8 shadow-sm md:p-10">
 
-            <h3 className="text-2xl font-bold">
-              What To Pack 🧳
-            </h3>
+    <div className="text-center">
+      <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
+        The Essentials
+      </p>
 
-            <p className="mx-auto mt-3 max-w-2xl text-gray-700">
-              Comfy clothes, PJs, your Maternity Rave outfit,
-              swimwear for the hot tub and, most importantly,
-              good vibes 🪩✨
-            </p>
+      <h3 className="mt-2 text-3xl font-bold">
+        What To Pack 🧳
+      </h3>
 
-          </div>
-        </section>
+      <p className="mx-auto mt-3 max-w-xl text-gray-600">
+        A little weekend checklist so nobody forgets the important stuff ♡
+      </p>
+    </div>
+
+    <div className="mx-auto mt-8 grid max-w-4xl gap-4 sm:grid-cols-2 md:grid-cols-3">
+
+      <div className="rounded-2xl bg-white p-5 text-center shadow-sm">
+        <p className="text-3xl">🪩</p>
+        <p className="mt-3 font-bold">Rave Outfit</p>
+        <p className="mt-1 text-sm text-gray-500">
+          Saturday&apos;s main event
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-white p-5 text-center shadow-sm">
+        <p className="text-3xl">👙</p>
+        <p className="mt-3 font-bold">Swimwear</p>
+        <p className="mt-1 text-sm text-gray-500">
+          Hot tub essential
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-white p-5 text-center shadow-sm">
+        <p className="text-3xl">🧸</p>
+        <p className="mt-3 font-bold">Comfy Clothes</p>
+        <p className="mt-1 text-sm text-gray-500">
+          Cosy weekend mode
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-white p-5 text-center shadow-sm">
+        <p className="text-3xl">🌙</p>
+        <p className="mt-3 font-bold">PJs</p>
+        <p className="mt-1 text-sm text-gray-500">
+          For late-night girl chats
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-white p-5 text-center shadow-sm">
+        <p className="text-3xl">💄</p>
+        <p className="mt-3 font-bold">Glam Bits</p>
+        <p className="mt-1 text-sm text-gray-500">
+          Whatever makes you feel fabulous
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-white p-5 text-center shadow-sm">
+        <p className="text-3xl">✨</p>
+        <p className="mt-3 font-bold">Good Vibes</p>
+        <p className="mt-1 text-sm text-gray-500">
+          Non-negotiable
+        </p>
+      </div>
+
+    </div>
+
+    <p className="mt-8 text-center font-medium text-rose-500">
+      Pack light. Bring the energy. 🪩 ♡
+    </p>
+
+  </div>
+</section>
 
         {/* FINAL MESSAGE */}
         <section className="mt-12 text-center">
