@@ -89,7 +89,7 @@ export default function MimiAndTheGirlsHolidaySite() {
             <h2 className="font-bold">🪩 The Occasion</h2>
 
             <p className="mt-2 text-sm text-gray-600">
-              Mimi&apos;s Babymoon Weekend — friendship, food, music, laughter
+              Mimi&apos;s Babymoon Weekend : friendship, food, music, laughter
               and memories with the girls.
             </p>
           </div>
@@ -184,7 +184,7 @@ export default function MimiAndTheGirlsHolidaySite() {
               <div className="rounded-xl bg-pink-50 p-5">
                 <p className="text-lg font-bold">Neba 👩🏽‍🍳</p>
                 <p className="mt-1 text-sm text-gray-600">
-                  The One Who Keeps Us Fed
+                  The Food to our Soul
                 </p>
               </div>
 
