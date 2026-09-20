@@ -191,14 +191,14 @@ export default function MimiAndTheGirlsHolidaySite() {
               <div className="rounded-xl bg-pink-50 p-5">
                 <p className="text-lg font-bold">Ayasha 🎶</p>
                 <p className="mt-1 text-sm text-gray-600">
-                  The Soundtrack to the Weekend
+                  The Music to our Hearts
                 </p>
               </div>
 
               <div className="rounded-xl bg-pink-50 p-5">
                 <p className="text-lg font-bold">Marina ✨</p>
                 <p className="mt-1 text-sm text-gray-600">
-                  The One Who Has It Handled
+                  The One who you can Rely on
                 </p>
               </div>
 
