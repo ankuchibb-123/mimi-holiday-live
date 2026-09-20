@@ -66,10 +66,12 @@ export default function MimiAndTheGirlsHolidaySite() {
 
           <div className="rounded-xl bg-white p-6 shadow">
             <h2 className="font-bold">🏡 Our Weekend Home</h2>
+
             <p className="mt-2 text-sm text-gray-600">
               A cosy four-bedroom house with a garden and hot tub — all ours
               for the weekend.
             </p>
+
             <p className="mt-3 text-sm font-semibold text-rose-500">
               📍 51 Watson Avenue, Wouldham, Kent, ME5 9SJ
             </p>
@@ -77,6 +79,7 @@ export default function MimiAndTheGirlsHolidaySite() {
 
           <div className="rounded-xl bg-white p-6 shadow">
             <h2 className="font-bold">🗓️ The Dates</h2>
+
             <p className="mt-2 text-sm text-gray-600">
               Friday 16 October — Sunday 18 October 2026
             </p>
@@ -84,16 +87,18 @@ export default function MimiAndTheGirlsHolidaySite() {
 
           <div className="rounded-xl bg-white p-6 shadow">
             <h2 className="font-bold">🪩 The Occasion</h2>
+
             <p className="mt-2 text-sm text-gray-600">
-              Mimi&apos;s Babymoon Weekend — a weekend of friendship, fun,
-              food, music and memories.
+              Mimi&apos;s Babymoon Weekend — friendship, food, music, laughter
+              and memories with the girls.
             </p>
           </div>
 
         </section>
 
-        {/* LIVE COUNTDOWN */}
+        {/* COUNTDOWN */}
         <section className="mt-12 rounded-2xl bg-black p-8 text-center text-white">
+
           <h3 className="text-2xl font-bold">
             The Countdown Is On ⏳
           </h3>
@@ -108,28 +113,36 @@ export default function MimiAndTheGirlsHolidaySite() {
               <p className="text-3xl font-bold md:text-4xl">
                 {timeLeft.days}
               </p>
-              <p className="mt-1 text-xs text-gray-300 md:text-sm">Days</p>
+              <p className="mt-1 text-xs text-gray-300 md:text-sm">
+                Days
+              </p>
             </div>
 
             <div className="rounded-xl bg-white/10 p-4">
               <p className="text-3xl font-bold md:text-4xl">
                 {timeLeft.hours}
               </p>
-              <p className="mt-1 text-xs text-gray-300 md:text-sm">Hours</p>
+              <p className="mt-1 text-xs text-gray-300 md:text-sm">
+                Hours
+              </p>
             </div>
 
             <div className="rounded-xl bg-white/10 p-4">
               <p className="text-3xl font-bold md:text-4xl">
                 {timeLeft.minutes}
               </p>
-              <p className="mt-1 text-xs text-gray-300 md:text-sm">Minutes</p>
+              <p className="mt-1 text-xs text-gray-300 md:text-sm">
+                Minutes
+              </p>
             </div>
 
             <div className="rounded-xl bg-white/10 p-4">
               <p className="text-3xl font-bold md:text-4xl">
                 {timeLeft.seconds}
               </p>
-              <p className="mt-1 text-xs text-gray-300 md:text-sm">Seconds</p>
+              <p className="mt-1 text-xs text-gray-300 md:text-sm">
+                Seconds
+              </p>
             </div>
 
           </div>
@@ -137,13 +150,14 @@ export default function MimiAndTheGirlsHolidaySite() {
           <p className="mt-7 text-lg">
             Mimi, we&apos;re coming to celebrate you! 🩷
           </p>
+
         </section>
 
         {/* THE GIRLS */}
         <section className="mt-12">
           <div className="rounded-2xl bg-white p-8 text-center shadow">
 
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-3xl font-bold">
               The Girls 💖
             </h3>
 
@@ -151,47 +165,47 @@ export default function MimiAndTheGirlsHolidaySite() {
               Same girls. Different chapter. Same energy.
             </p>
 
-            <div className="mt-6 grid gap-4 md:grid-cols-3">
+            <div className="mt-8 grid gap-4 md:grid-cols-3">
 
               <div className="rounded-xl bg-rose-100 p-5">
                 <p className="text-lg font-bold">Mimi 👑</p>
-                <p className="text-sm text-gray-600">
-                  The Main Character
+                <p className="mt-1 text-sm text-gray-600">
+                  The Main Event
                 </p>
               </div>
 
               <div className="rounded-xl bg-pink-50 p-5">
                 <p className="text-lg font-bold">Koo 🪩</p>
-                <p className="text-sm text-gray-600">
-                  Fun & Vibes Department
+                <p className="mt-1 text-sm text-gray-600">
+                  The Life of the Party
                 </p>
               </div>
 
               <div className="rounded-xl bg-pink-50 p-5">
                 <p className="text-lg font-bold">Neba 👩🏽‍🍳</p>
-                <p className="text-sm text-gray-600">
-                  The Chef
+                <p className="mt-1 text-sm text-gray-600">
+                  The One Who Keeps Us Fed
                 </p>
               </div>
 
               <div className="rounded-xl bg-pink-50 p-5">
                 <p className="text-lg font-bold">Ayasha 🎶</p>
-                <p className="text-sm text-gray-600">
-                  Resident DJ
+                <p className="mt-1 text-sm text-gray-600">
+                  The Soundtrack to the Weekend
                 </p>
               </div>
 
               <div className="rounded-xl bg-pink-50 p-5">
-                <p className="text-lg font-bold">Marina 📋</p>
-                <p className="text-sm text-gray-600">
-                  Miss Organised
+                <p className="text-lg font-bold">Marina ✨</p>
+                <p className="mt-1 text-sm text-gray-600">
+                  The One Who Has It Handled
                 </p>
               </div>
 
               <div className="rounded-xl bg-pink-50 p-5">
                 <p className="text-lg font-bold">Sophia 🧘🏽‍♀️</p>
-                <p className="text-sm text-gray-600">
-                  The Calm One
+                <p className="mt-1 text-sm text-gray-600">
+                  The Calm in the Chaos
                 </p>
               </div>
 
@@ -199,50 +213,69 @@ export default function MimiAndTheGirlsHolidaySite() {
           </div>
         </section>
 
-        {/* HONORARY GIRLS */}
+        {/* WITH US IN SPIRIT */}
         <section className="mt-12">
           <div className="rounded-2xl bg-rose-50 p-8 text-center">
 
             <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
-              Always Part of the Weekend
+              Near & Far
             </p>
 
-            <h3 className="mt-2 text-2xl font-bold">
-              Near & Far 💌
+            <h3 className="mt-2 text-3xl font-bold">
+              With Us in Spirit 💌
             </h3>
 
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-              They may not be with us physically, but they were part of the
-              planning and are never far from Mimi&apos;s heart. 💕
+              Different places. Same circle. Always part of the story. 💕
             </p>
 
-            <div className="mt-7 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
 
               <div className="rounded-xl bg-white p-5 shadow-sm">
-                <p className="font-bold">Sarlasht 💕</p>
-                <p className="mt-1 text-sm text-gray-600">
-                  Mimi&apos;s sister
+                <p className="text-lg font-bold">
+                  Sarlasht 💞
+                </p>
+                <p className="mt-1 font-medium text-rose-500">
+                  The Sister & Forever Sidekick
+                </p>
+                <p className="mt-2 text-sm text-gray-600">
+                  Mimi&apos;s sister — never really far away.
                 </p>
               </div>
 
               <div className="rounded-xl bg-white p-5 shadow-sm">
-                <p className="font-bold">Azmin 🥂</p>
-                <p className="mt-1 text-sm text-gray-600">
-                  Away celebrating her 10-year anniversary
+                <p className="text-lg font-bold">
+                  Azmin 🥂
+                </p>
+                <p className="mt-1 font-medium text-rose-500">
+                  The Original Girl Gang
+                </p>
+                <p className="mt-2 text-sm text-gray-600">
+                  Away celebrating her very special 10-year anniversary.
                 </p>
               </div>
 
               <div className="rounded-xl bg-white p-5 shadow-sm">
-                <p className="font-bold">Sahar 🇩🇪</p>
-                <p className="mt-1 text-sm text-gray-600">
-                  Sending love from Germany
+                <p className="text-lg font-bold">
+                  Sahar 🌍
+                </p>
+                <p className="mt-1 font-medium text-rose-500">
+                  The Long-Distance Love
+                </p>
+                <p className="mt-2 text-sm text-gray-600">
+                  Sending all the love from Germany.
                 </p>
               </div>
 
               <div className="rounded-xl bg-white p-5 shadow-sm">
-                <p className="font-bold">Dominika 🇦🇪</p>
-                <p className="mt-1 text-sm text-gray-600">
-                  Sending love from Dubai
+                <p className="text-lg font-bold">
+                  Dominika 💫
+                </p>
+                <p className="mt-1 font-medium text-rose-500">
+                  The Faraway Favourite
+                </p>
+                <p className="mt-2 text-sm text-gray-600">
+                  With us in spirit all the way from Dubai.
                 </p>
               </div>
 
@@ -271,6 +304,7 @@ export default function MimiAndTheGirlsHolidaySite() {
 
             {/* FRIDAY */}
             <div className="rounded-2xl bg-white p-7 shadow">
+
               <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
                 Friday 16 October
               </p>
@@ -282,14 +316,16 @@ export default function MimiAndTheGirlsHolidaySite() {
               <div className="mt-6 space-y-5 text-gray-600">
                 <p>🚗 Arrive in Wouldham, Kent</p>
                 <p>🏡 Check in & settle</p>
-                <p>🥂 Food & drinks <span className="text-xs">(to be discussed)</span></p>
+                <p>🥂 Food & drinks</p>
                 <p>💕 Catch up, hang out & good conversations</p>
                 <p>🫧 Hot tub time — we made it!</p>
               </div>
+
             </div>
 
             {/* SATURDAY */}
             <div className="rounded-2xl bg-rose-50 p-7 shadow">
+
               <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
                 Saturday 17 October
               </p>
@@ -299,16 +335,18 @@ export default function MimiAndTheGirlsHolidaySite() {
               </h4>
 
               <div className="mt-6 space-y-5 text-gray-600">
-                <p>🥐 Breakfast <span className="text-xs">(to be discussed)</span></p>
+                <p>🥯 Breakfast together</p>
                 <p>💄 Get ready & glam up</p>
                 <p>🪩 Mimi&apos;s Maternity Rave</p>
-                <p>🍕 Dinner <span className="text-xs">(to be discussed)</span></p>
+                <p>🌮 Dinner together</p>
                 <p>🧖🏽‍♀️ R&R — recover and recharge</p>
               </div>
+
             </div>
 
             {/* SUNDAY */}
             <div className="rounded-2xl bg-white p-7 shadow">
+
               <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
                 Sunday 18 October
               </p>
@@ -318,21 +356,194 @@ export default function MimiAndTheGirlsHolidaySite() {
               </h4>
 
               <div className="mt-6 space-y-5 text-gray-600">
-                <p>☕ Breakfast <span className="text-xs">(to be discussed)</span></p>
+                <p>🥐 Breakfast together</p>
                 <p>🏰 Walk & explore Rochester Castle</p>
-                <p>🛍️ Coffee, lunch & bits <span className="text-xs">(to be discussed)</span></p>
+                <p>☕ Coffee, lunch & bits</p>
                 <p>🚆 Head home — until next time 💕</p>
               </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        {/* WEEKEND MENU */}
+        <section className="mt-16">
+
+          <div className="mb-8 text-center">
+
+            <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
+              Eat • Drink • Repeat
+            </p>
+
+            <h3 className="mt-2 text-3xl font-bold">
+              The Weekend Menu 🍽️
+            </h3>
+
+            <p className="mt-2 text-gray-600">
+              Good food, good drinks & even better company ♡
+            </p>
+
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2">
+
+            {/* FRIDAY DINNER */}
+            <div className="rounded-2xl bg-white p-7 shadow">
+
+              <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
+                Friday Dinner 🇮🇹
+              </p>
+
+              <h4 className="mt-2 text-2xl font-bold">
+                Italian Vibes
+              </h4>
+
+              <div className="mt-5 text-gray-600">
+                <p className="font-medium text-slate-800">
+                  🍗 Chicken & potato tray bake
+                </p>
+
+                <p className="mt-2">
+                  🥗 Side salad
+                </p>
+              </div>
+
+              <div className="mt-6 border-t border-rose-100 pt-5">
+                <p className="font-semibold text-rose-500">
+                  🍹 Drinks
+                </p>
+
+                <p className="mt-2 text-sm text-gray-600">
+                  Aperol Spritz + homemade lemonades
+                </p>
+              </div>
+
+            </div>
+
+            {/* SATURDAY BREAKFAST */}
+            <div className="rounded-2xl bg-rose-50 p-7 shadow">
+
+              <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
+                Saturday Breakfast 🥯
+              </p>
+
+              <h4 className="mt-2 text-2xl font-bold">
+                Bagel Morning
+              </h4>
+
+              <p className="mt-5 font-medium text-slate-700">
+                A selection of:
+              </p>
+
+              <div className="mt-3 space-y-3 text-sm text-gray-600">
+                <p>
+                  🥯 Bagels with chicken/turkey, cream cheese,
+                  spicy sauce & rocket
+                </p>
+
+                <p>
+                  🍓 Scones with jam & clotted cream
+                </p>
+
+                <p>
+                  🍯 Fruit, Greek yoghurt, honey & granola bowls
+                </p>
+              </div>
+
+              <div className="mt-6 border-t border-rose-200 pt-5">
+                <p className="font-semibold text-rose-500">
+                  ☕ Drinks
+                </p>
+
+                <p className="mt-2 text-sm text-gray-600">
+                  Coffee + tea + mimosas
+                </p>
+              </div>
+
+            </div>
+
+            {/* SATURDAY DINNER */}
+            <div className="rounded-2xl bg-rose-50 p-7 shadow">
+
+              <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
+                Saturday Dinner 🌮
+              </p>
+
+              <h4 className="mt-2 text-2xl font-bold">
+                Taco Night
+              </h4>
+
+              <div className="mt-5 space-y-3 text-gray-600">
+                <p>🌮 Chicken tacos / fajitas</p>
+                <p>🌽 Corn on the cob</p>
+                <p>🥑 Guacamole</p>
+                <p>🌽 Tortilla chips</p>
+              </div>
+
+              <div className="mt-6 border-t border-rose-200 pt-5">
+                <p className="font-semibold text-rose-500">
+                  🍸 Drinks
+                </p>
+
+                <p className="mt-2 text-sm text-gray-600">
+                  Margaritas + non-alcoholic margaritas
+                </p>
+              </div>
+
+            </div>
+
+            {/* SUNDAY BREAKFAST */}
+            <div className="rounded-2xl bg-white p-7 shadow">
+
+              <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
+                Sunday Breakfast 🥐
+              </p>
+
+              <h4 className="mt-2 text-2xl font-bold">
+                Slow Sunday Morning
+              </h4>
+
+              <p className="mt-5 font-medium text-slate-700">
+                A selection of:
+              </p>
+
+              <div className="mt-3 space-y-3 text-sm text-gray-600">
+
+                <p>
+                  🥐 Croissants with melted cheese, tomato
+                  and/or turkey ham
+                </p>
+
+                <p>
+                  🥮 Selection of pastries
+                </p>
+
+              </div>
+
+              <div className="mt-6 border-t border-rose-100 pt-5">
+
+                <p className="font-semibold text-rose-500">
+                  ☕ Drinks
+                </p>
+
+                <p className="mt-2 text-sm text-gray-600">
+                  Coffee + tea + mimosas
+                </p>
+
+              </div>
+
             </div>
 
           </div>
         </section>
 
         {/* HOUSE */}
-        <section className="mt-12">
+        <section className="mt-16">
           <div className="rounded-2xl bg-white p-8 shadow">
 
             <div className="text-center">
+
               <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
                 Home for the Weekend
               </p>
@@ -342,9 +553,10 @@ export default function MimiAndTheGirlsHolidaySite() {
               </h3>
 
               <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-                Our home away from home for the weekend — somewhere to eat,
-                laugh, relax, catch up and make memories together.
+                Our home away from home — somewhere to eat, laugh,
+                relax, catch up and make memories together.
               </p>
+
             </div>
 
             <div className="mt-8 grid gap-4 text-center sm:grid-cols-2 md:grid-cols-4">
@@ -382,8 +594,9 @@ export default function MimiAndTheGirlsHolidaySite() {
             </h3>
 
             <p className="mx-auto mt-3 max-w-2xl text-gray-700">
-              Comfy clothes, PJs, your Maternity Rave outfit, swimwear for the
-              hot tub and, most importantly, good vibes 🪩✨
+              Comfy clothes, PJs, your Maternity Rave outfit,
+              swimwear for the hot tub and, most importantly,
+              good vibes 🪩✨
             </p>
 
           </div>
@@ -391,6 +604,7 @@ export default function MimiAndTheGirlsHolidaySite() {
 
         {/* FINAL MESSAGE */}
         <section className="mt-12 text-center">
+
           <p className="text-sm font-semibold uppercase tracking-wide text-rose-500">
             Wouldham, Kent • October 2026
           </p>
@@ -400,14 +614,15 @@ export default function MimiAndTheGirlsHolidaySite() {
           </h4>
 
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-            A weekend for Mimi — full of friendship, laughter, music,
-            questionable decisions, good food and memories with the girls
-            who love her most. 🪩✨
+            A weekend for Mimi — full of friendship, laughter,
+            music, good food and memories with the girls who love
+            her most. 🪩✨
           </p>
 
           <p className="mt-6 font-semibold text-rose-500">
             This chapter means everything ♡
           </p>
+
         </section>
 
       </main>
