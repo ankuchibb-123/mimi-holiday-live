@@ -1,33 +1,391 @@
-🪩 🎀 ✨
-YOU'RE INVITED
-MIMI'S
-MATERNITY RAVE
-Same girls. Different chapter. Same energy.
-💗 A little rave before the biggest adventure
-📅
-Saturday
-17 October 2026
-⏰
-3–6 PM
-UK time
-📍
-Wouldham, Kent
-Our girls' house
-🎶
-Music • Love
-Disco energy
-💃 The vibe
-Dress to dance, sparkle and celebrate our mamma-to-be. Think disco balls, favourite songs, fabulous outfits and unforgettable girlhood memories.
-Dress code: Your rave outfit — whatever makes you feel fabulous! 🪩
-🎵 The soundtrack
-Bring your favourite dance-floor anthem. We're making a playlist full of songs that remind us of Mimi and the girls.
-🍹 Bites & sips
-Good food, refreshing drinks, plenty of laughter and alcohol-free options for our mamma-to-be. 💕
-⏳ Countdown to the rave
-Counting down…
-Saturday 17 October 2026 at 3 PM, UK time
-📸 Capture the memories
-Take a photo with Mimi, a disco selfie, and one group shot we’ll treasure forever. 💗
-← Back to the Babymoon Weekend
-Made with love for Mimi ♡
-Good music. Good people. Baby vibes. 🪩
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#23091f" />
+  <title>Mimi's Maternity Rave 🪩</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff1f8;
+      background:
+        radial-gradient(ellipse at 50% 0%, #80285e 0%, transparent 45%),
+        radial-gradient(ellipse at 90% 55%, #521b50 0%, transparent 40%),
+        #19091c;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(100% - 36px, 920px);
+      margin: auto;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      padding: 75px 15px 65px;
+      background:
+        radial-gradient(circle at 15% 20%, #ff78bb55, transparent 30%),
+        radial-gradient(circle at 85% 10%, #f9a0dc44, transparent 35%);
+    }
+
+    .hero::before {
+      content: "✦  ✧  ✦  ✧  ✦";
+      position: absolute;
+      top: 20px;
+      left: 0;
+      right: 0;
+      color: #ffc1e6;
+      letter-spacing: 35px;
+      opacity: .8;
+    }
+
+    .disco {
+      font-size: 80px;
+      filter: drop-shadow(0 0 25px #ff7fc5);
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      50% { transform: translateY(-12px) rotate(8deg); }
+    }
+
+    .eyebrow {
+      color: #ffc3e1;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(52px, 11vw, 105px);
+      line-height: .99;
+      letter-spacing: -3px;
+      margin: 24px 0;
+      text-transform: uppercase;
+      text-shadow: 0 0 35px #ff4ba5aa;
+    }
+
+    h1 span {
+      display: block;
+      color: #ff92cb;
+      font-style: italic;
+      text-shadow: 0 0 22px #ff4ba5;
+    }
+
+    .tagline {
+      font-size: clamp(16px, 3vw, 21px);
+      color: #ffd2e9;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 11px 22px;
+      border: 1px solid #ffacd7;
+      border-radius: 100px;
+      color: #ffe1f0;
+      margin-top: 18px;
+      background: #ffffff12;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin: 35px 0;
+    }
+
+    .detail, .card {
+      background: linear-gradient(145deg, #62254d, #30152f);
+      border: 1px solid #ffb0dc55;
+      border-radius: 22px;
+      padding: 25px;
+      box-shadow: 0 12px 35px #0004;
+    }
+
+    .detail { text-align: center; }
+
+    .emoji { font-size: 32px; }
+
+    .detail strong {
+      display: block;
+      font-size: 17px;
+      margin-top: 10px;
+    }
+
+    .detail small { color: #ffc8e3; }
+
+    .section-heading {
+      text-align: center;
+      margin: 70px 0 26px;
+    }
+
+    .section-heading h2 {
+      font-size: clamp(29px, 5vw, 43px);
+      margin: 8px 0;
+    }
+
+    .section-heading p { color: #ffc7e1; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .card h3 {
+      color: #ffb2db;
+      font-size: 23px;
+      margin: 10px 0;
+    }
+
+    .card p { color: #f5d8e8; }
+
+    .highlight {
+      color: #ffc1e0;
+      font-weight: bold;
+    }
+
+    .countdown {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    .countdown div {
+      background: #ffffff13;
+      border: 1px solid #ffc0e866;
+      border-radius: 17px;
+      padding: 17px 5px;
+      text-align: center;
+    }
+
+    .countdown strong {
+      display: block;
+      font-size: clamp(25px, 5vw, 44px);
+      color: #ffabd8;
+    }
+
+    .countdown small {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .photo-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .photo-list div {
+      padding: 15px;
+      background: #ffffff10;
+      border-radius: 13px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 65px 15px 85px;
+      color: #ffc3df;
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      border-radius: 30px;
+      background: #f6a3cf;
+      color: #33142b;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    @media (max-width: 650px) {
+      .details, .cards { grid-template-columns: 1fr; }
+      .hero { padding-top: 65px; }
+      .detail { padding: 19px; }
+      .countdown { gap: 7px; }
+      .countdown div { padding: 12px 3px; }
+      .countdown small { font-size: 10px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="disco">🪩🎀</div>
+
+    <p class="eyebrow">You're Invited</p>
+
+    <h1>
+      Mimi's
+      <span>Maternity</span>
+      Rave
+    </h1>
+
+    <p class="tagline">
+      Same girls. Different chapter. Same energy.
+    </p>
+
+    <div class="pill">
+      💗 A little rave before the biggest adventure
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section class="details">
+      <div class="detail">
+        <div class="emoji">📅</div>
+        <strong>Saturday</strong>
+        <small>17 October 2026</small>
+      </div>
+
+      <div class="detail">
+        <div class="emoji">⏰</div>
+        <strong>3:00 – 6:00 PM</strong>
+        <small>UK time</small>
+      </div>
+
+      <div class="detail">
+        <div class="emoji">📍</div>
+        <strong>Wouldham, Kent</strong>
+        <small>Our girls' house</small>
+      </div>
+    </section>
+
+    <div class="section-heading">
+      <p class="eyebrow">The Celebration</p>
+      <h2>Good Music. Good People. Baby Vibes. 💕</h2>
+      <p>
+        Three hours of music, dancing, laughter and celebrating
+        our beautiful mamma-to-be!
+      </p>
+    </div>
+
+    <section class="cards">
+
+      <div class="card">
+        <div class="emoji">✨</div>
+        <h3>The Dress Code</h3>
+        <p>
+          Your favourite <span class="highlight">rave outfit!</span>
+          Think sparkle, glam, disco energy and whatever makes
+          you feel fabulous.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🎶</div>
+        <h3>The Soundtrack</h3>
+        <p>
+          Bring your favourite dance-floor anthem.
+          The songs that remind us of Mimi, the girls
+          and all our best memories.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🍹</div>
+        <h3>Bites & Sips</h3>
+        <p>
+          Good food, refreshing drinks, sweet treats
+          and plenty of alcohol-free options.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">💌</div>
+        <h3>A Little Reminder</h3>
+        <p>
+          This isn't just a rave.
+          It's a celebration of Mimi, our friendship
+          and the beautiful new chapter ahead.
+        </p>
+      </div>
+
+    </section>
+
+    <div class="section-heading">
+      <p class="eyebrow">It's Almost Time</p>
+      <h2>Countdown to the Rave ⏳</h2>
+      <p>Saturday 17 October 2026 at 3 PM</p>
+    </div>
+
+    <section class="countdown" aria-label="Countdown">
+      <div><strong id="days">--</strong><small>Days</small></div>
+      <div><strong id="hours">--</strong><small>Hours</small></div>
+      <div><strong id="minutes">--</strong><small>Minutes</small></div>
+      <div><strong id="seconds">--</strong><small>Seconds</small></div>
+    </section>
+
+    <div class="section-heading">
+      <p class="eyebrow">Say Cheese</p>
+      <h2>Photo Challenges 📸</h2>
+      <p>Let's make memories we'll keep forever.</p>
+    </div>
+
+    <section class="card photo-list">
+      <div>💗 Take a beautiful photo with Mimi</div>
+      <div>🪩 Capture your best disco pose</div>
+      <div>👯 Get a photo with all the girls</div>
+      <div>✨ Take one spontaneous, unplanned photo</div>
+      <div>💕 Recreate an old friendship memory</div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <h2>Same Girls. Different Chapter. ♡</h2>
+
+    <p>A little rave before the biggest adventure.</p>
+    <p>Made with love for Mimi 🪩💗</p>
+
+    <a class="back" href="/">
+      ← Back to the Babymoon Weekend
+    </a>
+  </footer>
+
+  <script>
+    const target = new Date("2026-10-17T15:00:00+01:00").getTime();
+
+    function updateCountdown() {
+      const difference = target - Date.now();
+
+      if (difference <= 0) {
+        document.getElementById("days").textContent = "0";
+        document.getElementById("hours").textContent = "0";
+        document.getElementById("minutes").textContent = "0";
+        document.getElementById("seconds").textContent = "0";
+        return;
+      }
+
+      const days = Math.floor(difference / 86400000);
+      const hours = Math.floor((difference / 3600000) % 24);
+      const minutes = Math.floor((difference / 60000) % 60);
+      const seconds = Math.floor((difference / 1000) % 60);
+
+      document.getElementById("days").textContent = days;
+      document.getElementById("hours").textContent = hours;
+      document.getElementById("minutes").textContent = minutes;
+      document.getElementById("seconds").textContent = seconds;
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
+
+</body>
+</html>
